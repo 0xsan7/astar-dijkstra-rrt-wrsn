@@ -100,4 +100,4 @@ Research Internship:
 NIT Goa, Department of Computer Science and Engineering  
 Advisor: Dr. S Mini
 
-Status: Research Complete | Ready for Publication
+Status: ongoing 
