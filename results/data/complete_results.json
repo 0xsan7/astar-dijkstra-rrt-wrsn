@@ -1,0 +1,170 @@
+{
+  "10": {
+    "no_obstacles": {
+      "A*": {
+        "mean_distance": 261.1307390400969,
+        "std_distance": 39.29351768705596,
+        "mean_time": 19.3637212117513,
+        "std_time": 6.745475986062684
+      },
+      "Dijkstra": {
+        "mean_distance": 271.76140723908696,
+        "std_distance": 38.592836932725156,
+        "mean_time": 4147.287845611572,
+        "std_time": 1745.2601811239838
+      },
+      "RRT": {
+        "mean_distance": 288.49823478751296,
+        "std_distance": 44.03936944845157,
+        "mean_time": 2.817869186401367,
+        "std_time": 0.9937097036018596
+      }
+    },
+    "with_obstacles": {
+      "A*": {
+        "mean_distance": 236.39290037078374,
+        "std_distance": 8.084513806891183,
+        "mean_time": 28.223196665445965,
+        "std_time": 13.849082341809458
+      },
+      "Dijkstra": {
+        "mean_distance": 244.1672611112897,
+        "std_distance": 8.285111885860681,
+        "mean_time": 3041.400909423828,
+        "std_time": 454.297791617669
+      },
+      "RRT": {
+        "mean_distance": 289.7166932685174,
+        "std_distance": 30.127684387442464,
+        "mean_time": 19.61072285970052,
+        "std_time": 12.217655229872756
+      }
+    }
+  },
+  "25": {
+    "no_obstacles": {
+      "A*": {
+        "mean_distance": 467.67205701370267,
+        "std_distance": 33.75779379995561,
+        "mean_time": 24.589697519938152,
+        "std_time": 7.957795777927928
+      },
+      "Dijkstra": {
+        "mean_distance": 494.7346190859469,
+        "std_distance": 32.79825409073027,
+        "mean_time": 8184.024333953857,
+        "std_time": 4787.533076611275
+      },
+      "RRT": {
+        "mean_distance": 523.5280612814614,
+        "std_distance": 23.689616524772397,
+        "mean_time": 5.390246709187825,
+        "std_time": 0.4445423506255038
+      }
+    },
+    "with_obstacles": {
+      "A*": {
+        "mean_distance": 498.0705508012746,
+        "std_distance": 68.21324898000726,
+        "mean_time": 374.4296232859294,
+        "std_time": 449.08708779524295
+      },
+      "Dijkstra": {
+        "mean_distance": 523.5391632558504,
+        "std_distance": 72.34231360034154,
+        "mean_time": 14842.221657435099,
+        "std_time": 15385.251369420384
+      },
+      "RRT": {
+        "mean_distance": 562.9403268076624,
+        "std_distance": 62.648137071336855,
+        "mean_time": 20.217021306355793,
+        "std_time": 5.767866838627846
+      }
+    }
+  },
+  "50": {
+    "no_obstacles": {
+      "A*": {
+        "mean_distance": 642.9450791673218,
+        "std_distance": 84.02752314404094,
+        "mean_time": 34.315268198649086,
+        "std_time": 18.911924043958923
+      },
+      "Dijkstra": {
+        "mean_distance": 680.527345096444,
+        "std_distance": 94.86636853808271,
+        "mean_time": 25829.413096110027,
+        "std_time": 33415.835129112296
+      },
+      "RRT": {
+        "mean_distance": 826.4212992105649,
+        "std_distance": 72.8454782551419,
+        "mean_time": 7.00227419535319,
+        "std_time": 0.9817290111153605
+      }
+    },
+    "with_obstacles": {
+      "A*": {
+        "mean_distance": 671.3012588267502,
+        "std_distance": 101.80341787582573,
+        "mean_time": 378.28262646993,
+        "std_time": 194.65524104756818
+      },
+      "Dijkstra": {
+        "mean_distance": 700.5582918144777,
+        "std_distance": 106.01933042683932,
+        "mean_time": 24910.02345085144,
+        "std_time": 29989.679495036093
+      },
+      "RRT": {
+        "mean_distance": 804.4386756511259,
+        "std_distance": 102.94863778187181,
+        "mean_time": 64.6062692006429,
+        "std_time": 15.37901397960604
+      }
+    }
+  },
+  "100": {
+    "no_obstacles": {
+      "A*": {
+        "mean_distance": 904.8646074265586,
+        "std_distance": 61.61847765499835,
+        "mean_time": 29.436588287353516,
+        "std_time": 3.246412683383949
+      },
+      "Dijkstra": {
+        "mean_distance": 974.6518898047334,
+        "std_distance": 70.51087111609378,
+        "mean_time": 7310.434341430664,
+        "std_time": 8596.896480062547
+      },
+      "RRT": {
+        "mean_distance": 1240.6753231287587,
+        "std_distance": 89.51735482078507,
+        "mean_time": 12.297709782918295,
+        "std_time": 0.7880563310791363
+      }
+    },
+    "with_obstacles": {
+      "A*": {
+        "mean_distance": 844.2915474549554,
+        "std_distance": 77.51873667256288,
+        "mean_time": 8843.640327453613,
+        "std_time": 12430.10960353048
+      },
+      "Dijkstra": {
+        "mean_distance": 899.0824821424395,
+        "std_distance": 81.50070681309587,
+        "mean_time": 45695.39467493693,
+        "std_time": 43030.974151078146
+      },
+      "RRT": {
+        "mean_distance": 1084.5121016121905,
+        "std_distance": 145.54626426262203,
+        "mean_time": 79.70968882242839,
+        "std_time": 6.1219642343967715
+      }
+    }
+  }
+}
