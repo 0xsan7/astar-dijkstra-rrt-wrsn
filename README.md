@@ -101,3 +101,14 @@ NIT Goa, Department of Computer Science and Engineering
 Advisor: Dr. S Mini
 
 Status: ongoing 
+
+## Latest Update (August 2026)
+
+**Complete Dijkstra Testing Added**
+- Previously limited Dijkstra to 10-25 nodes due to computational constraints
+- Now includes complete testing: 10, 25, 50, 100 nodes
+- Dijkstra at 50 nodes: 25,829ms
+- Dijkstra at 100 nodes: 7,310-45,695ms
+- Graphs updated with logarithmic scale for visibility
+
+**Key Finding**: A* is the practical choice for networks beyond 25 nodes
