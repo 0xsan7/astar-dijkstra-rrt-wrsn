@@ -1,0 +1,52 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor, operating system and personal backups
+.DS_Store
+.vscode/
+.idea/
+*.save
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+tempCodeRunnerFile.*
+
+# Local secrets: use sanitized example templates only
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+.ssh/
+.secrets/
+credentials.json
+
+# Local notes and disposable build products (not a privacy boundary)
+private_notes/
+local_runs/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Existing tracked artifacts remain tracked regardless of these rules.
+# Never use a broad PDF/ZIP/results ignore rule: reviewed research outputs matter.

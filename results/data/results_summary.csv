@@ -1,0 +1,21 @@
+Node Count,Scenario,Algorithm,Mean Distance (m),Std Distance (m),Mean Time (ms),Std Time (ms),Efficiency
+10,no_obstacles,A*,261.13,39.29,21.35,7.94,12.23
+10,no_obstacles,Dijkstra,271.76,38.59,4050.99,1714.30,0.07
+10,no_obstacles,RRT,288.50,44.04,2.78,0.99,103.93
+10,with_obstacles,A*,236.39,8.08,27.98,13.47,8.45
+10,with_obstacles,Dijkstra,244.17,8.29,2994.49,444.60,0.08
+10,with_obstacles,RRT,289.72,30.13,19.67,12.33,14.73
+25,no_obstacles,A*,467.67,33.76,24.28,7.91,19.26
+25,no_obstacles,Dijkstra,494.73,32.80,8422.57,5280.31,0.06
+25,no_obstacles,RRT,523.53,23.69,5.47,0.58,95.64
+25,with_obstacles,A*,498.07,68.21,406.69,490.54,1.22
+25,with_obstacles,Dijkstra,523.54,72.34,15129.02,15685.80,0.03
+25,with_obstacles,RRT,562.94,62.65,21.28,6.08,26.45
+50,no_obstacles,A*,642.95,84.03,36.52,20.57,17.61
+50,no_obstacles,RRT,826.42,72.85,7.16,1.05,115.39
+50,with_obstacles,A*,671.30,101.80,420.28,215.22,1.60
+50,with_obstacles,RRT,804.44,102.95,68.11,18.10,11.81
+100,no_obstacles,A*,904.86,61.62,30.56,3.83,29.61
+100,no_obstacles,RRT,1240.68,89.52,12.96,0.67,95.73
+100,with_obstacles,A*,844.29,77.52,9266.05,13016.11,0.09
+100,with_obstacles,RRT,1084.51,145.55,89.22,8.19,12.16
